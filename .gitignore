@@ -1,0 +1,19 @@
+﻿.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+*.log
+
+# Local environments and generated caches
+.venv312/
+.cache/
+
+# Python and test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+runs/
